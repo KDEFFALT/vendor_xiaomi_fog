@@ -1448,14 +1448,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/fog/proprietary/vendor/radio/qcril_database/upgrade/6_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/6_version_update_ecc_table.sql \
     vendor/xiaomi/fog/proprietary/vendor/radio/qcril_database/upgrade/7_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/7_version_update_ecc_table.sql \
     vendor/xiaomi/fog/proprietary/vendor/radio/qcril_database/upgrade/8_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/8_version_update_ecc_table.sql \
-    vendor/xiaomi/fog/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql \
-	vendor/xiaomi/fog/proprietary/vendor/etc/init/android.hardware.usb@1.2-service-qti.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/android.hardware.usb@1.2-service-qti.rc \
-	vendor/xiaomi/fog/proprietary/vendor/bin/hw/android.hardware.usb@1.2-service-qti:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.usb@1.2-service-qti 
+    vendor/xiaomi/fog/proprietary/vendor/radio/qcril_database/upgrade/9_version_update_ecc_table.sql:$(TARGET_COPY_OUT_VENDOR)/radio/qcril_database/upgrade/9_version_update_ecc_table.sql
 
 PRODUCT_PACKAGES += \
     libfastcvopt \
     libthermalclient \
-	android.hardware.usb@1.2-service \
     CneApp \
     IWlanService \
     SoterService \
